@@ -1,0 +1,236 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Roboto;
+  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 {
+	background: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.fa-plus  {
+	float: right;
+}
+.fa-check-circle{
+	float: right;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+
+#container li, #sampletask li {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	padding-left: 20px;
+}
+
+#container li:nth-child(2n) ,#sampletask li:nth-child(2n){
+	background: #f7f7f7;
+}
+
+#container li span, #sampletask li span {
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 0px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+	float: right;
+}
+
+#container li:hover span, #sampletask li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+input {
+	font-size: 18px;
+	color: #2980b9;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+	background: #fff;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+input[type=text]{
+	width: 100%;
+}
+input[type=date]{
+	width: 100%;
+}
+#container {
+	position: relative;
+	width: 360px;
+	margin-left:  60%;
+	margin-top: 50px;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+#sampletask{
+	
+	position: absolute;
+	width: 360px;
+	left: 13%;
+	top: 150px;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+#clear button{
+	width: 100%;
+	height: 40px;
+}
+#addTask button{
+	width: 100%;
+	height: 40px;
+}
+#about-us{
+	position: absolute;
+	margin-left:  45%;
+	margin-top: 337px;
+}
+#about-us h1{
+	background-color: rgba(197, 239, 247, 1);
+	color: #2980b9;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal; 
+}
+#basant{
+	background-color: rgba(218, 223, 225, 0.7);
+	position: relative;
+	width: 100%;
+	height: 250px;
+	margin-top: 400px;
+
+
+	
+}
+#basant h1{
+	position: relative;
+	background-color: rgba(149, 165, 166, 1);
+	color: white;
+	 
+}
+#basant p{
+	margin-top: -130px; 
+	line-height: 28px;
+	width: 800px;
+	margin-left: 20px;
+	
+}
+#basant img{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top:20px;
+	left: 80%;
+}
+#himanshu{
+	position: relative;
+	background-color: rgba(218, 223, 225, 0.7);
+	width: 100%;
+	height: 250px;
+	margin-top: 20px;
+	
+	
+}
+#himanshu h1{
+	position: relative;
+	padding-left: 82%;
+	background-color: rgba(149, 165, 166, 1);
+	color: white;
+	
+}
+#himanshu p{
+	text-align: right;
+	margin-top: -120px; 
+	line-height: 28px;
+	width: 800px;
+	margin-left: 39%;
+
+}
+#himanshu img{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top:20px;
+	left: 10%;
+}
+#contact{
+	position: relative;
+	width: 100%;
+	height: 250px;
+	margin-top: 20px;
+	background-color: black;
+	opacity: 0.7;
+	color: white;
+}
+#contact h2 {
+	text-align: center;
+	padding-top: 30px;
+}
+#contact div{
+	float: left;
+	width: 400px;
+}
+#person1{
+	position: relative;
+	left: 5%;
+}
+#person1 li{
+	float: left;
+	padding-right: 5%;
+}
+#person2{
+	position: relative;
+	left: 50%;
+}
+#person2 li{
+	float: left;
+	padding-right: 5%;
+}
+#tohome{
+	position: relative;
+	left: 32%;
+	top:58%;
+}
+
