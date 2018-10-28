@@ -137,6 +137,7 @@ input[type=text]{
 	margin-left:  45%;
 	margin-top: 337px;
 }
+/*Changing The Default Styles of H1 tag */
 #about-us h1{
 	background-color: rgba(197, 239, 247, 1);
 	color: #2980b9;
@@ -146,6 +147,7 @@ input[type=text]{
 	font-size: 24px;
 	font-weight: normal; 
 }
+/* Adding a new DIV "basant" for adding the inforamtion about basant*/
 #basant{
 	background-color: rgba(218, 223, 225, 0.7);
 	position: relative;
@@ -153,15 +155,14 @@ input[type=text]{
 	height: 250px;
 	margin-top: 400px;
 
-
-	
+	/*Adding Properties to H1 in DIV Basant*/
 }
 #basant h1{
 	position: relative;
 	background-color: rgba(149, 165, 166, 1);
 	color: white;
-	 
 }
+/*Adding Properties to p in DIV Basant*/
 #basant p{
 	margin-top: -130px; 
 	line-height: 28px;
@@ -169,6 +170,7 @@ input[type=text]{
 	margin-left: 20px;
 	
 }
+/*Adding Properties to <img> in DIV Basant*/
 #basant img{
 	position: relative;
 	width: 150px;
@@ -177,15 +179,15 @@ input[type=text]{
 	top:20px;
 	left: 80%;
 }
+/* Adding a new DIV "himanshu" for adding the inforamtion about Himanshu*/
 #himanshu{
 	position: relative;
 	background-color: rgba(218, 223, 225, 0.7);
 	width: 100%;
 	height: 250px;
 	margin-top: 20px;
-	
-	
 }
+/*Adding Properties to <H1> in DIV Himanshu*/
 #himanshu h1{
 	position: relative;
 	padding-left: 82%;
@@ -193,14 +195,15 @@ input[type=text]{
 	color: white;
 	
 }
+/*Adding Properties to <p> in DIV Himanshu*/
 #himanshu p{
 	text-align: right;
 	margin-top: -120px; 
 	line-height: 28px;
 	width: 60%;
 	margin-left: 39%;
-
 }
+/*Adding Properties to <img> in DIV Himanshu*/
 #himanshu img{
 	position: relative;
 	width: 150px;
@@ -209,6 +212,7 @@ input[type=text]{
 	top:20px;
 	left: 10%;
 }
+/* Adding a new DIV "contact" for the variours contact on social networking sites*/
 #contact{
 	position: relative;
 	width: 100%;
@@ -218,30 +222,40 @@ input[type=text]{
 	opacity: 0.7;
 	color: white;
 }
+/*Adding The Styles in h2 tag in div "contact" */
 #contact h2 {
 	text-align: center;
 	padding-top: 30px;
 }
 #contact div{
+	/*Using float:left we align our eleement to the left of the page or simply they all
+	  comes in one line
+	*/
 	float: left;
 	width: 400px;
 }
+/*Adding The properties to the person1 div*/
 #person1{
 	position: relative;
 	left: 5%;
 }
+
+/*Styling the li in div "person1" */
 #person1 li{
 	float: left;
 	padding-right: 5%;
 }
+/*Adding The properties to the person2 div*/
 #person2{
 	position: relative;
 	left: 50%;
 }
+/*Styling the li in div "person2" */
 #person2 li{
 	float: left;
 	padding-right: 5%;
 }
+/*Adding a div "tohome", when user click on this div, user go to the home section */
 #tohome{
 	position: relative;
 	left: 32%;
