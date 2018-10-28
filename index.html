@@ -6,14 +6,21 @@
 	<!-- Latest compiled and minified CSS Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+	<!-- Adding The Local CSS File -->
 	<link rel="stylesheet" type="text/css" href="assets/css/todos.css">
+
+	<!-- Adding Fonts From GOOGLE FONTS (ROBOTO) -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+
+	<!-- Adding Fonts like Trash , Plus etc From Fontawesome.com -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<!-- Adding jQuery Locally -->
 	<script src="https://code.jquery.com/jquery-2.2.4.js"> </script>
 </head>
 
 <body>
 
+<!-- Adding NavBar From Bootstrap  -->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     
@@ -36,67 +43,78 @@
 
 
 
-
+<!-- Make A Container For To Do List  -->
 <div id="container">
 	<h1>To-Do List <span id="toggle-form"><i class="fa fa-plus"></i></span></h1>
 	<input type="text" placeholder="Add New Todo" id="kaam">
+
+	<!-- Adding Due Date using JavaScript (Source:- StackOverFlow) -->
 	<input  type="text" placeholder="Due Date" id="tariq" onfocus="(this.type='date')" >
 
 	<div id="addTask">
+		<!-- Here the class used for button is from Bootstrap Button -->
 		<button class="btn btn-success">Add TASK</button>
 	</div>
 
 	<ul>
+		<!-- In Span The i tag is used from Fontawesome.com to use font "X" -->
 		 <li><span><i class="fa fa-times"></i></span> Go To Potions Class</li>
 		<li><span><i class="fa fa-times"></i></span> Buy New Robes</li>
 		<li><span><i class="fa fa-times"></i></span> Visit Hagrid</li>
 	</ul>
 
 	<div id="clear">
+		<!-- Here the class used for button is from Bootstrap Button -->
 		<button class="btn btn-danger">Clear All</button>
 	</div>
 </div>
   
+  <!-- Create Another Div to add Sample Task From the Group of Tasks -->
  <div id="sampletask">
 
 		<h1>Some Sample Task</h1>
 		<ul>
-			<li>HOME  <span><i class="fas fa-check-circle"></i> </span> </li>
-			<li>College <span><i class="fas fa-check-circle"></i> </span> </li>
-			<li>Walk <span><i class="fas fa-check-circle"></i> </span> </li>
+			<li>Eat Fruits  <span><i class="fas fa-check-circle"></i> </span> </li>
+			<li>Do Assignment <span><i class="fas fa-check-circle"></i> </span> </li>
+			<li>Go To Yoga Classes<span><i class="fas fa-check-circle"></i> </span> </li>
 		</ul>
 
 </div>
  
+ <!-- Another Div For The Heading "ABOUT US" -->
 <div id="about-us">
 
 		<h1> About Us </h1>
 
 </div>
 
-
+<!-- Make a div for the Basant Section -->
 <div id="basant">
 	<h1>Basant Kumar</h1>
+	<!-- Adding The Photo Of Basant -->
 	<img src="img/basant.jpeg" alt="himanshu photo">
 	<p>
 		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 	</p>
 </div>
 
+<!-- Make a div for the Himanshu Section -->
 <div id="himanshu">
 	 <h1>Himanshu Rawat</h1>
+	 <!-- Adding The Photo Of Basant -->
 	 <img src="img/himanshu.jpeg" alt="himanshu photo">
 	 <p>
 		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 	</p>
 </div>
-
+<!-- div for the "Contact Us" -->
 <div id="contact">
 	 <h2>Contact Us</h2>
 
 	 
 	 <div id="person1">
 	 	<h3>Himanshu Rawat</h3>
+	 	<!-- Links For The Social Media and other stuffs -->
 	 	<ul>
 	 		<li><a href="https://www.facebook.com"><i class="fab fa-facebook fa-3x"></i> </a></li>
 	 		<li><a href="https://www.gmail.com"><i class="fas fa-envelope fa-3x"></i> </a></li>
@@ -108,6 +126,7 @@
 
 	 <div id="person2">
 	 	<h3>Basant Kumar</h3>
+	 	<!-- Links For The Social Media and other stuffs -->
 	 	<ul>
 	 		<li><a href="https://www.facebook.com"><i class="fab fa-facebook fa-3x"></i> </a></li>
 	 		<li><a href="https://www.gmail.com"><i class="fas fa-envelope fa-3x"></i> </a></li>
@@ -116,12 +135,15 @@
 	 	</ul>
 	 </div>
 
-	 <div id="tohome">
-	 	 <a href="#tohome">Click To Home</a>
-	 </div>
+<!-- a div for back to home so user does not need to scroll the page above -->
+ <div id="tohome">
+	 	 <a href="#tohome">Back To Home</a>
+</div>
 	
 </div>
+<!-- End Of Contact Us Div -->
 
+<!-- Adding The JavaScript From locally -->
 <script type="text/javascript" src="assets/js/todos.js"></script>
 </body>
 </html>
